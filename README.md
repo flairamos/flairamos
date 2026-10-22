@@ -1,14 +1,7 @@
 <!--
   ═══════════════════════════════════════════════════════════════
-  GitHub Profile README — 后端开发（Go / Java）
+  GitHub Profile README — flairamos · 后端开发（Go / Java）
   ═══════════════════════════════════════════════════════════════
-  使用步骤：
-  1. 新建一个与你用户名同名的仓库：<your-username>/<your-username>
-  2. 创建时勾选 "Add README to this repository"，它会自动成为你的主页 README
-  3. 把本文件内容替换进 README.md
-  4. 全局搜索替换 your-username → 你的真实用户名
-  5. 把邮箱、掘金、知乎、博客等占位链接换成你自己的（不需要的整行删掉即可）
-
   所有卡片都是第三方服务实时生成的 SVG，无需手动更新数据。
   卡片已用 <picture> 做了亮/暗主题自适应，跟随访问者的 GitHub 主题。
   ═══════════════════════════════════════════════════════════════
@@ -16,7 +9,7 @@
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=170&section=header&text=your-username&fontSize=54&fontColor=ffffff&fontAlignY=36&animation=fadeIn" alt="your-username" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=170&section=header&text=flairamos&fontSize=54&fontColor=ffffff&fontAlignY=36&animation=fadeIn" alt="flairamos" width="100%" />
 
   <br/>
 
@@ -26,9 +19,9 @@
 
   <br/>
 
-  <img src="https://img.shields.io/github/followers/your-username?style=flat-square&label=FOLLOWERS&labelColor=161B22&color=00ADD8" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/your-username?style=flat-square&label=STARS&labelColor=161B22&color=00ADD8" alt="GitHub Stars" />
-  <img src="https://komarev.com/ghpvc/?username=your-username&style=flat-square&color=00ADD8&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/flairamos?style=flat-square&label=FOLLOWERS&labelColor=161B22&color=00ADD8" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/flairamos?style=flat-square&label=STARS&labelColor=161B22&color=00ADD8" alt="GitHub Stars" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=flairamos.flairamos&left_text=PROFILE%20VIEWS&left_color=161B22&right_color=00ADD8" alt="Profile Views" />
 
 </div>
 
@@ -156,32 +149,36 @@ $ exit
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" />
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" height="195" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=flairamos&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=flairamos&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" />
+    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=flairamos&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" height="195" />
   </picture>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&hide_border=true&theme=github_dark&langs_count=10&locale=cn&card_width=460" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&hide_border=true&theme=default&langs_count=10&locale=cn&card_width=460" />
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&hide_border=true&theme=default&langs_count=10&locale=cn&card_width=460" height="195" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=flairamos&layout=compact&hide_border=true&theme=github_dark&langs_count=10&locale=cn&card_width=460" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=flairamos&layout=compact&hide_border=true&theme=default&langs_count=10&locale=cn&card_width=460" />
+    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=flairamos&layout=compact&hide_border=true&theme=default&langs_count=10&locale=cn&card_width=460" height="195" />
   </picture>
 
   <br/>
 
+  <!-- Streak 公共实例当前不稳定（Error Fetching Resource），暂时隐藏；上游恢复后取消注释即可
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=your-username&theme=github-dark&hide_border=true&locale=cn" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=your-username&theme=default&hide_border=true&locale=cn" />
-    <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=your-username&theme=default&hide_border=true&locale=cn" width="94%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=flairamos&theme=github-dark&hide_border=true&locale=cn" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=flairamos&theme=default&hide_border=true&locale=cn" />
+    <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=flairamos&theme=default&hide_border=true&locale=cn" width="94%" />
   </picture>
+  -->
 
   <br/>
 
+  <!-- Trophies 公共实例当前返回 402，暂时隐藏；上游恢复后取消注释即可
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=your-username&theme=onedark&no-bg=true&no-frame=true&column=7&margin-w=6&margin-h=6" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=your-username&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=6&margin-h=6" />
-    <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=your-username&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=6&margin-h=6" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=flairamos&theme=onedark&no-bg=true&no-frame=true&column=7&margin-w=6&margin-h=6" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=flairamos&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=6&margin-h=6" />
+    <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=flairamos&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=6&margin-h=6" />
   </picture>
+  -->
 
 </div>
 
@@ -191,25 +188,23 @@ $ exit
 
 <div align="center">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=tokyonight&hide_border=true&area=true&line=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=github-compact&hide_border=true&area=true&line=true" />
-    <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=github-compact&hide_border=true&area=true&line=true" width="98%" />
-  </picture>
+  <a href="https://github.com/flairamos">
+    <img alt="Contribution Graph" src="https://ghchart.rshah.org/00ADD8/flairamos" width="98%" />
+  </a>
 
 </div>
 
 <!--
   ─── 可选：贡献热力图上的"贪吃蛇"动画 ───────────────────────────
-  需要先启用仓库里的 .github/workflows/snake.yml（同目录已提供），
+  需要先添加 .github/workflows/snake.yml 工作流（并手动运行一次），
   它会用 GitHub Actions 定时生成 SVG 并推送到 output 分支。
-  启用后取消下面这段注释，并把 your-username 换成你的用户名。
+  启用后取消下面这段注释即可。
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/your-username/your-username/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/your-username/your-username/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/your-username/your-username/output/github-contribution-grid-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/flairamos/flairamos/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/flairamos/flairamos/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/flairamos/flairamos/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
 </div>
 -->
@@ -220,14 +215,14 @@ $ exit
 
 <div align="center">
 
-  <a href="https://github.com/your-username">
-    <img src="https://img.shields.io/badge/GitHub-your--username-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://github.com/flairamos">
+    <img src="https://img.shields.io/badge/GitHub-flairamos-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:you@example.com">
     <img src="https://img.shields.io/badge/Email-you%40example.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://x.com/your-username">
-    <img src="https://img.shields.io/badge/X-your--username-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  <a href="https://x.com/flairamos">
+    <img src="https://img.shields.io/badge/X-flairamos-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
   <a href="https://juejin.cn/user/your-user-id">
     <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-your--id-1E80FF?style=for-the-badge&logo=juejin&logoColor=white" alt="Juejin" />
