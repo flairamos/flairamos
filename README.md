@@ -9,17 +9,17 @@
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=170&section=header&text=flairamos&fontSize=54&fontColor=ffffff&fontAlignY=36&animation=fadeIn" alt="flairamos" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=170&section=header&text=flairamos&fontSize=54&fontColor=ffffff&fontAlignY=36&animation=fadeIn" alt="flairamos" width="100%" />
 
-  <br/>
+<br/>
 
-  <a href="https://git.io/typing-svg">
+<a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00ADD8&center=true&vCenter=true&width=460&height=48&size=20&lines=Hi%2C+%E6%88%91%E6%98%AF%E4%B8%80%E5%90%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91;3+%E5%B9%B4%E5%90%8E%E7%AB%AF%E5%B7%A5%E4%BD%9C%E7%BB%8F%E9%AA%8C;Go+%2F+Golang+%C2%B7+Java+%C2%B7+%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F;%E8%87%B4%E5%8A%9B%E4%BA%8E%E5%86%99%E7%A8%B3%E5%AE%9A%E3%80%81%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81" alt="Typing SVG" />
   </a>
 
-  <br/>
+<br/>
 
-  <img src="https://img.shields.io/github/followers/flairamos?style=flat-square&label=FOLLOWERS&labelColor=161B22&color=00ADD8" alt="GitHub Followers" />
+<img src="https://img.shields.io/github/followers/flairamos?style=flat-square&label=FOLLOWERS&labelColor=161B22&color=00ADD8" alt="GitHub Followers" />
   <img src="https://img.shields.io/github/stars/flairamos?style=flat-square&label=STARS&labelColor=161B22&color=00ADD8" alt="GitHub Stars" />
   <img src="https://visitor-badge.laobi.icu/badge?page_id=flairamos.flairamos&left_text=PROFILE%20VIEWS&left_color=161B22&right_color=00ADD8" alt="Profile Views" />
 
@@ -65,7 +65,7 @@ $ exit
               开始对"系统怎么坏掉"比对"功能怎么写"更感兴趣
 ```
 
-> 时间区间按你的实际情况改一下就行。
+> 不出意外我应该还没把这些知识忘完。
 
 <br/>
 
@@ -73,13 +73,13 @@ $ exit
 
 <div align="center">
 
-  <p align="center">
+<p align="center">
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=go,java,python,cpp,ts,mysql,postgres,redis,mongodb,kafka,docker,kubernetes,nginx,git,linux,vim,aws,grafana" alt="My Skills" />
     </a>
   </p>
 
-  <table>
+<table>
     <tr>
       <td align="center"><b>主力语言</b></td>
       <td>
@@ -148,21 +148,21 @@ $ exit
 
 <div align="center">
 
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=flairamos&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=flairamos&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" />
     <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=flairamos&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true&locale=cn&card_width=460" height="195" />
   </picture>
 
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=flairamos&layout=compact&hide_border=true&theme=github_dark&langs_count=10&locale=cn&card_width=460" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=flairamos&layout=compact&hide_border=true&theme=default&langs_count=10&locale=cn&card_width=460" />
     <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=flairamos&layout=compact&hide_border=true&theme=default&langs_count=10&locale=cn&card_width=460" height="195" />
   </picture>
 
-  <br/>
+<br/>
 
-  <!-- Streak 公共实例当前不稳定（Error Fetching Resource），暂时隐藏；上游恢复后取消注释即可
+<!-- Streak 公共实例当前不稳定（Error Fetching Resource），暂时隐藏；上游恢复后取消注释即可
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=flairamos&theme=github-dark&hide_border=true&locale=cn" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=flairamos&theme=default&hide_border=true&locale=cn" />
@@ -170,9 +170,9 @@ $ exit
   </picture>
   -->
 
-  <br/>
+<br/>
 
-  <!-- Trophies 公共实例当前返回 402，暂时隐藏；上游恢复后取消注释即可
+<!-- Trophies 公共实例当前返回 402，暂时隐藏；上游恢复后取消注释即可
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=flairamos&theme=onedark&no-bg=true&no-frame=true&column=7&margin-w=6&margin-h=6" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=flairamos&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=6&margin-h=6" />
@@ -188,7 +188,7 @@ $ exit
 
 <div align="center">
 
-  <a href="https://github.com/flairamos">
+<a href="https://github.com/flairamos">
     <img alt="Contribution Graph" src="https://ghchart.rshah.org/00ADD8/flairamos" width="98%" />
   </a>
 
@@ -215,7 +215,7 @@ $ exit
 
 <div align="center">
 
-  <a href="https://github.com/flairamos">
+<a href="https://github.com/flairamos">
     <img src="https://img.shields.io/badge/GitHub-flairamos-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:you@example.com">
@@ -239,10 +239,10 @@ $ exit
 
 <div align="center">
 
-  <img src="https://readme-jokes.vercel.app/api?theme=black&hideBorder" alt="Jokes Card" width="80%" />
+<img src="https://readme-jokes.vercel.app/api?theme=black&hideBorder" alt="Jokes Card" width="80%" />
 
   <br/><br/>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=110&section=footer&text=Thanks+for+stopping+by&fontSize=22&fontColor=ffffff&fontAlignY=70" alt="Footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=110&section=footer&text=Thanks+for+stopping+by&fontSize=22&fontColor=ffffff&fontAlignY=70" alt="Footer" width="100%" />
 
 </div>
