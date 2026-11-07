@@ -84,6 +84,12 @@ LANG_FALLBACK_COLORS = {
     "Lua": "#000080",
 }
 
+# 贡献日历色阶（对齐 GitHub 官方配色）
+CAL_LEVEL_COLORS = {
+    "light": ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+    "dark": ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
+}
+
 
 # ────────────────────────────── 请求封装 ──────────────────────────────────
 
@@ -286,6 +292,7 @@ def collect(user: str, token: str) -> dict:
         },
         "streak": {"current": cur, "longest": longest},
         "weekday": weekday,
+        "_calendar_days": [(ds, c) for ds, c in days],  # 仅用于渲染，写 stats.json 前会被移除
         "languages": languages,
         "language_bytes_total": lang_bytes,
         "private_tokens_see_public_only": "想统计私有仓库请用带 repo 权限的 PAT（见 docs/PROFILE.md）",
@@ -432,6 +439,71 @@ def streak_card(d: dict, th: dict, seeded: bool) -> str:
     return "".join(body)
 
 
+def calendar_card(days, th: dict, theme: str, seeded: bool) -> str:
+    """贡献日历热力图（GitHub 官方数据）—— 带星期/月份坐标，补齐贪吃蛇没有的坐标轴。"""
+    w, h = 650, 154
+    body = [card(w, h, th)]
+    body.append(
+        f'<text x="30" y="28" font-size="17" font-family="{FONT}" fill="{th["fg"]}" font-weight="700">{esc("贡献日历")}</text>'
+        f'<text x="{w - 30}" y="28" font-size="11" font-family="{FONT}" fill="{th["muted"]}" text-anchor="end">{esc("近 365 天 · GitHub 官方 API")}</text>'
+    )
+    colors = CAL_LEVEL_COLORS[theme]
+    # 图例：少 □□□□□ 多
+    for i, c in enumerate(colors):
+        x = w - 106 + i * 13
+        body.append(f'<rect x="{x}" y="20" width="10" height="10" rx="2" fill="{c}" stroke="{th["line"]}"/>')
+    body.append(f'<text x="{w - 112}" y="29" font-size="9" font-family="{FONT}" fill="{th["muted"]}" text-anchor="end">{esc("少")}</text>')
+    body.append(f'<text x="{w - 38}" y="29" font-size="9" font-family="{FONT}" fill="{th["muted"]}">{esc("多")}</text>')
+
+    if not days:
+        msg = "暂无数据 — 运行一次 Update Profile Stats 后由官方贡献日历生成"
+        body.append(
+            f'<text x="{w / 2}" y="100" font-size="13" font-family="{FONT}" fill="{th["muted"]}" text-anchor="middle">{esc(msg)}</text>'
+        )
+        body.append("</svg>")
+        return "".join(body)
+
+    x0, y0, step, size = 36, 60, 11, 9
+    first = date.fromisoformat(days[0][0][:10])
+    sunday_start = first - timedelta(days=(first.weekday() + 1) % 7)  # 该列首日所属的周日
+
+    # 星期坐标（GitHub 布局：第 0 行是周日）；只在 一/三/五 行写标签
+    row_labels = {1: "一", 3: "三", 5: "五"}
+    for r, lbl in row_labels.items():
+        body.append(
+            f'<text x="{x0 - 6}" y="{y0 + r * step + 7.5}" font-size="8.5" font-family="{FONT}" fill="{th["muted"]}" text-anchor="end">{esc(lbl)}</text>'
+        )
+
+    # 月份坐标：某月第 1 天出现在某一列时标注月份
+    last_label_col = -10
+    for ds, _ in days:
+        d = date.fromisoformat(ds[:10])
+        if d.day != 1:
+            continue
+        col = (d - sunday_start).days // 7
+        if col - last_label_col < 2:
+            continue
+        last_label_col = col
+        body.append(
+            f'<text x="{x0 + col * step}" y="{y0 - 6}" font-size="8.5" font-family="{FONT}" fill="{th["muted"]}">{esc(d.month)}月</text>'
+        )
+
+    # 格子
+    for ds, c in days:
+        d = date.fromisoformat(ds[:10])
+        col = (d - sunday_start).days // 7
+        row = (d.weekday() + 1) % 7          # 周一=1 ... 周日=0（和 GitHub 一致）
+        if c <= 0:
+            lv = 0
+        else:
+            lv = 1 if c < 3 else 2 if c < 6 else 3 if c < 10 else 4
+        body.append(
+            f'<rect x="{x0 + col * step}" y="{y0 + row * step}" width="{size}" height="{size}" rx="2" fill="{colors[lv]}"/>'
+        )
+    body.append("</svg>")
+    return "".join(body)
+
+
 # ────────────────────────────── 主流程 ──────────────────────────────────
 
 def main() -> int:
@@ -471,13 +543,15 @@ def main() -> int:
                 return 1
 
     print(f"▸ 渲染卡片 → {out}/ (data_source={d.get('data_source', '?')[:60]}...)")
+    cal_days = d.pop("_calendar_days", []) or []
     for theme in ("light", "dark"):
         th = THEMES[theme]
         (out / f"stats-{theme}.svg").write_text(stats_card(d, th, seeded), encoding="utf-8")
         (out / f"languages-{theme}.svg").write_text(languages_card(d, th, seeded), encoding="utf-8")
         (out / f"streak-{theme}.svg").write_text(streak_card(d, th, seeded), encoding="utf-8")
+        (out / f"calendar-{theme}.svg").write_text(calendar_card(cal_days, th, theme, seeded), encoding="utf-8")
 
-    local = Path("assets/stats.json")
+    local = Path(out) / "stats.json"
     local.write_text(
         json.dumps({**d, "seeded_placeholder": seeded}, ensure_ascii=False, indent=2),
         encoding="utf-8",

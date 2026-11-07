@@ -27,6 +27,7 @@ GitHub Actions
 | `assets/stats-{light,dark}.svg` | commits/PR/Issue/Review/Stars/Forks/仓库数/Followers、最热仓库、GitHub 龄 | github-readme-stats |
 | `assets/languages-{light,dark}.svg` | 语言占比（按代码字节数，GraphQL `languages`） | github-readme-stats top-langs |
 | `assets/streak-{light,dark}.svg` | 当前/最长连续贡献 + 星期分布 + 年度总量 | streak-stats.demolab.com |
+| `assets/calendar-{light,dark}.svg` | 官方贡献日历热力图，带星期/月份坐标与图例 | ghchart.rshah.org |
 | `assets/stats.json` | 本轮分析全部原始指标，方便自己再加工 | — |
 | `assets/banner-header.svg` / `banner-footer.svg` | 顶部/底部波浪横幅（静态） | capsule-render |
 | `assets/tagline.svg` | 打字动画的静态备用版 | readme-typing-svg |
@@ -133,7 +134,10 @@ Featured Projects 的简介是我按各仓库描述写的，你可以随时调�
 ## 7. 常见问题
 
 - **Q: 为什么 README 里图片有的看不了？**
-  外面的打字动画（demolab.com）、shields.io、visitor-badge、ghchart 都是老牌国内可达服务；
-  如果你也想连这些彻底去掉：打字动画 → `assets/tagline.svg`，贡献图 → 贪吃蛇工作流就能代替。
-- **Q: 想改卡片配色？** 改 `generate_stats.py` 顶部 `THEMES`，`accent` 就是主题色（现在是 Go 青 #00ADD8）。
+  README 里剩余的外部服务（打字动画 demolab.com、shields.io、visitor-badge） 都是老牌国内可达服务；
+  如果你也想连这些彻底去掉：打字动画 → `assets/tagline.svg`，贡献图 → 本仓库的日历卡就能代替。
+- **Q: 为什么贪吃蛇没有星期/月份坐标？**
+  `Platane/snk` 只渲染"格子 + 蛇"，不带坐标轴，这是它的固有输出。坐标标注由本仓库自产的
+  `calendar-*.svg` 贡献日历卡补齐（同一份官方数据，日历卡负责"读数"，贪吃蛇负责动效）。
+- **Q: 想改卡片配色？** 改 `generate_stats.py` 顶部 `THEMES`（日历色阶在 `CAL_LEVEL_COLORS`，与 GitHub 官方一致）。
 - **Q: 卡片是图片还是 SVG？** 全部是 SVG，文字矢量、体积小、可被搜索引擎索引。

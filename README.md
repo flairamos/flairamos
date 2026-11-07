@@ -242,24 +242,24 @@ $ exit
 
 <br/>
 
-## ▸ Contribution Graph
+## ▸ 贡献日历 · Contribution Calendar
 
-<!-- <div align="center">
+<!-- 贡献日历：scripts/generate_stats.py 用官方 GraphQL contributionCalendar 渲染，
+     带星期/月份坐标与图例（贪吃蛇动画本身没有坐标轴，二者正好互补）。
+     若图片缺失：重跑一次 Update Profile Stats 生成 assets/calendar-*.svg -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/calendar-light.svg" />
+    <img alt="Contribution Calendar — 官方贡献日历" src="assets/calendar-light.svg" width="98%" />
+  </picture>
+</div>
 
-<a href="https://github.com/flairamos">
-    <img alt="Contribution Graph" src="https://ghchart.rshah.org/00ADD8/flairamos" width="98%" />
-  </a>
+<br/>
 
-</div> -->
+## ▸ 贡献贪吃蛇 · Snake
 
-<!--
-  ─── 贪吃蛇动画（彩色 + 亮暗双语主题）────────────────────────────
-  启用步骤（详见 docs/PROFILE.md）：
-    1. 确认 .github/workflows/snake.yml 已存在
-    2. 进 Actions → Generate Contribution Snake → Run workflow 手动跑一次
-    3. 取消下方注释
-    SVG 会直接提交进本仓库 assets/，不存在 raw.githubusercontent 访问问题。
--->
+<!-- 动效彩蛋：由 snake.yml 生成并提交进 assets/，缺失时重跑 Generate Contribution Snake -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
