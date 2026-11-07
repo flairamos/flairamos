@@ -259,7 +259,7 @@ $ exit
     2. 进 Actions → Generate Contribution Snake → Run workflow 手动跑一次
     3. 取消下方注释
     SVG 会直接提交进本仓库 assets/，不存在 raw.githubusercontent 访问问题。
-
+-->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
@@ -267,7 +267,7 @@ $ exit
     <img alt="Contribution Snake" src="assets/snake-light.svg" width="98%" />
   </picture>
 </div>
--->
+
 
 <br/>
 
