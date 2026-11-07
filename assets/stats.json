@@ -1,0 +1,39 @@
+{
+  "_comment": "种子数据 — 仅用于 README 推送后的首次占位渲染，数值来自 2026-11-07 抓取的 GitHub 官方公开 API（REST /users/flairamos 与 /users/flairamos/repos）。GitHub Actions 首次运行 update-stats 工作流后，这些字段会被官方接口计算出的真实完整数据覆盖。",
+  "user": "flairamos",
+  "followers": 4,
+  "public_repos": 17,
+  "created_at": "2023-02-14T15:29:26Z",
+  "github_age_years": 3.7,
+  "stars": 3,
+  "forks": 0,
+  "top_repo": {
+    "name": "go-component",
+    "stars": 2
+  },
+  "contributions_last_year": {
+    "commits": null,
+    "pull_requests": null,
+    "issues": null,
+    "reviews": null,
+    "calendar_total": null
+  },
+  "streak": {
+    "current": null,
+    "longest": null
+  },
+  "weekday": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "languages": [],
+  "language_bytes_total": 0,
+  "generated_at": "2026-11-07T12:46:28+00:00",
+  "data_source": "seed seed_stats.json（占位渲染，Actions 首次运行后将被官方接口真实数据覆盖）",
+  "seeded_placeholder": true
+}

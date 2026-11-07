@@ -1,0 +1,43 @@
+# 每日用 GitHub 官方 API 刷新 README 统计卡片（替换一切第三方统计服务）
+#
+# 数据链路：official REST/GraphQL → scripts/generate_stats.py → assets/*.svg → README 相对路径引用
+# 亮/暗主题卡片同批生成；与 vercel.app 系列被墙/限流的公共服务彻底解耦。
+
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: "5 1 * * *" # UTC 01:05 = 北京时间 09:05 每天更新
+  workflow_dispatch: # 支持在 Actions 页面手动触发，首次启用后请手动跑一次
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate stats cards from official GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 默认 token 即可覆盖所有公开数据
+          STATS_USER: flairamos
+        run: python3 scripts/generate_stats.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore(stats): 同步 GitHub 官方接口数据 [skip ci]"
+            git push
+          fi

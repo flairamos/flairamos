@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-label="flairamos banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00ADD8"/>
+      <stop offset="0.55" stop-color="#1E7BD8"/>
+      <stop offset="1" stop-color="#6C5CE7"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 0 H1280 V148 C 1040 200 240 82 0 156 Z" fill="url(#bg)"/>
+  <text x="640" y="94" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="700" fill="#ffffff">flairamos</text>
+  <text x="640" y="128" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="rgba(255,255,255,0.78)">Go · Java · 分布式系统 —— 把复杂的东西写成简单的样子</text>
+</svg>

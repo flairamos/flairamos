@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="140" viewBox="0 0 1280 140" role="img" aria-label="footer banner">
+  <defs>
+    <linearGradient id="bg" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="0.45" stop-color="#1E7BD8"/>
+      <stop offset="1" stop-color="#00ADD8"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 44 C 240 96 1040 -12 1280 40 V140 H0 Z" fill="url(#bg)"/>
+  <text x="640" y="102" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#ffffff">Thanks for stopping by · Simplicity is a feature</text>
+</svg>

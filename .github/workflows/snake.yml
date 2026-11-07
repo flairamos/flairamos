@@ -1,0 +1,45 @@
+# 贡献热力图"贪吃蛇"动画。
+# 与常见教程不同：这里不推 output 分支，而是直接把 SVG 提交进主分支 assets/，
+# README 用相对路径引用 —— 避免 raw.githubusercontent.com 在部分地区不可访问的问题。
+
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "10 1 * * 1" # 每周一 UTC 01:10 = 北京时间 09:10
+  workflow_dispatch: # 支持手动触发；首次启用后请手动跑一次，README 里的贪吃蛇区块才有图
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Commit snake into assets/
+        run: |
+          mkdir -p assets
+          cp -f dist/snake-light.svg assets/
+          cp -f dist/snake-dark.svg assets/
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore(snake): 刷新贡献贪吃蛇 [skip ci]"
+            git push
+          fi
