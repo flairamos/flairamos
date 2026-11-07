@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 本地测试 / 临时文件
+assets/_test_*
+*.log
+
+# 不需要提交的系统与编辑器文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
