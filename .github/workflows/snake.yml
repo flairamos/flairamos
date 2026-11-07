@@ -1,6 +1,9 @@
 # 贡献热力图"贪吃蛇"动画。
 # 与常见教程不同：这里不推 output 分支，而是直接把 SVG 提交进主分支 assets/，
 # README 用相对路径引用 —— 避免 raw.githubusercontent.com 在部分地区不可访问的问题。
+#
+# 注意：checkout 必须放在生成动作之前！actions/checkout 的 clean:true（默认）
+# 会执行 git clean -ffdx，把先生成的 dist/ 目录整个清掉。
 
 name: Generate Contribution Snake
 
@@ -16,6 +19,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         env:
@@ -26,11 +32,9 @@ jobs:
             dist/snake-light.svg?palette=github-light
             dist/snake-dark.svg?palette=github-dark
 
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Commit snake into assets/
         run: |
+          ls -l dist/
           mkdir -p assets
           cp -f dist/snake-light.svg assets/
           cp -f dist/snake-dark.svg assets/

@@ -56,6 +56,9 @@ GitHub Actions
 3. **（可选）生成贪吃蛇**：Actions → **Generate Contribution Snake** → Run workflow 跑一次，
    然后 `README.md` 里取消"贪吃蛇"注释区块。之前教程常用的 output 分支方案不需要了 ——
    本工作流直接把 SVG 提交进主分支 `assets/`，不存在 raw.githubusercontent 访问问题。
+   （若曾遇到 `cannot stat 'dist/snake-light.svg'` 报错：那是 checkout 放在生成步骤之后、
+   被 `git clean` 清掉了产物所致，2026-11-07 已把 checkout 移到最前修复，推送本仓库最新
+   workflow 即可。）
 
 之后**每天早上 09:05 自动更新**，你不需要再维护数据。
 
