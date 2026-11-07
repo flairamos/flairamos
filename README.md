@@ -244,13 +244,13 @@ $ exit
 
 ## ▸ Contribution Graph
 
-<div align="center">
+<!-- <div align="center">
 
 <a href="https://github.com/flairamos">
     <img alt="Contribution Graph" src="https://ghchart.rshah.org/00ADD8/flairamos" width="98%" />
   </a>
 
-</div>
+</div> -->
 
 <!--
   ─── 贪吃蛇动画（彩色 + 亮暗双语主题）────────────────────────────
