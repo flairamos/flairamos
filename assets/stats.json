@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T13:38:02+00:00",
+  "generated_at": "2026-11-08T07:12:40+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 5,
-  "public_repos": 17,
+  "public_repos": 20,
   "created_at": "2023-02-14T15:29:26Z",
   "github_age_years": 3.7,
   "stars": 4,
@@ -13,15 +13,15 @@
     "stars": 2
   },
   "contributions_last_year": {
-    "commits": 14,
+    "commits": 27,
     "pull_requests": 0,
     "issues": 0,
     "reviews": 0,
-    "calendar_total": 17
+    "calendar_total": 33
   },
   "streak": {
-    "current": 1,
-    "longest": 1
+    "current": 2,
+    "longest": 2
   },
   "weekday": [
     0,
@@ -29,54 +29,54 @@
     2,
     2,
     0,
-    13,
-    0
+    19,
+    10
   ],
   "languages": [
     {
       "name": "Go",
-      "bytes": 316750,
-      "pct": 47.72,
-      "repos": 9,
+      "bytes": 345187,
+      "pct": 46.08,
+      "repos": 10,
       "color": "#00ADD8"
     },
     {
       "name": "JavaScript",
-      "bytes": 140906,
-      "pct": 21.23,
-      "repos": 3,
+      "bytes": 197826,
+      "pct": 26.41,
+      "repos": 4,
       "color": "#f1e05a"
     },
     {
       "name": "CSS",
       "bytes": 76362,
-      "pct": 11.5,
+      "pct": 10.19,
       "repos": 2,
       "color": "#663399"
     },
     {
       "name": "HTML",
       "bytes": 61035,
-      "pct": 9.2,
+      "pct": 8.15,
       "repos": 2,
       "color": "#e34c26"
     },
     {
       "name": "Shell",
       "bytes": 45096,
-      "pct": 6.79,
+      "pct": 6.02,
       "repos": 3,
       "color": "#89e051"
     },
     {
       "name": "Python",
       "bytes": 23599,
-      "pct": 3.56,
+      "pct": 3.15,
       "repos": 1,
       "color": "#3572A5"
     }
   ],
-  "language_bytes_total": 663748,
+  "language_bytes_total": 749105,
   "private_tokens_see_public_only": "想统计私有仓库请用带 repo 权限的 PAT（见 docs/PROFILE.md）",
   "seeded_placeholder": false
 }
