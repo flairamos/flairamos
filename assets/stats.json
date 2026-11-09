@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:12:40+00:00",
+  "generated_at": "2026-11-09T07:52:58+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 5,
@@ -35,48 +35,55 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 345187,
-      "pct": 46.08,
-      "repos": 10,
+      "bytes": 447052,
+      "pct": 52.52,
+      "repos": 11,
       "color": "#00ADD8"
     },
     {
       "name": "JavaScript",
       "bytes": 197826,
-      "pct": 26.41,
+      "pct": 23.24,
       "repos": 4,
       "color": "#f1e05a"
     },
     {
       "name": "CSS",
       "bytes": 76362,
-      "pct": 10.19,
+      "pct": 8.97,
       "repos": 2,
       "color": "#663399"
     },
     {
       "name": "HTML",
       "bytes": 61035,
-      "pct": 8.15,
+      "pct": 7.17,
       "repos": 2,
       "color": "#e34c26"
     },
     {
       "name": "Shell",
       "bytes": 45096,
-      "pct": 6.02,
+      "pct": 5.3,
       "repos": 3,
       "color": "#89e051"
     },
     {
       "name": "Python",
       "bytes": 23599,
-      "pct": 3.15,
+      "pct": 2.77,
       "repos": 1,
       "color": "#3572A5"
+    },
+    {
+      "name": "Batchfile",
+      "bytes": 264,
+      "pct": 0.03,
+      "repos": 1,
+      "color": "#C1F12E"
     }
   ],
-  "language_bytes_total": 749105,
+  "language_bytes_total": 851234,
   "private_tokens_see_public_only": "想统计私有仓库请用带 repo 权限的 PAT（见 docs/PROFILE.md）",
   "seeded_placeholder": false
 }
