@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-12T08:12:25+00:00",
+  "generated_at": "2026-11-13T07:48:49+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 5,
-  "public_repos": 20,
+  "public_repos": 21,
   "created_at": "2023-02-14T15:29:26Z",
   "github_age_years": 3.7,
-  "stars": 4,
+  "stars": 5,
   "forks": 0,
   "top_repo": {
     "name": "go-component",
     "stars": 2
   },
   "contributions_last_year": {
-    "commits": 27,
+    "commits": 34,
     "pull_requests": 0,
     "issues": 0,
     "reviews": 0,
-    "calendar_total": 33
+    "calendar_total": 41
   },
   "streak": {
-    "current": 0,
+    "current": 1,
     "longest": 2
   },
   "weekday": [
     0,
     0,
     2,
-    2,
+    10,
     0,
     19,
     10
@@ -36,42 +36,42 @@
     {
       "name": "Go",
       "bytes": 447052,
-      "pct": 52.52,
+      "pct": 44.28,
       "repos": 11,
       "color": "#00ADD8"
     },
     {
       "name": "JavaScript",
-      "bytes": 197826,
-      "pct": 23.24,
-      "repos": 4,
+      "bytes": 316811,
+      "pct": 31.38,
+      "repos": 5,
       "color": "#f1e05a"
     },
     {
       "name": "CSS",
-      "bytes": 76362,
-      "pct": 8.97,
-      "repos": 2,
+      "bytes": 91297,
+      "pct": 9.04,
+      "repos": 3,
       "color": "#663399"
     },
     {
       "name": "HTML",
-      "bytes": 61035,
-      "pct": 7.17,
-      "repos": 2,
+      "bytes": 85431,
+      "pct": 8.46,
+      "repos": 3,
       "color": "#e34c26"
     },
     {
       "name": "Shell",
       "bytes": 45096,
-      "pct": 5.3,
+      "pct": 4.47,
       "repos": 3,
       "color": "#89e051"
     },
     {
       "name": "Python",
       "bytes": 23599,
-      "pct": 2.77,
+      "pct": 2.34,
       "repos": 1,
       "color": "#3572A5"
     },
@@ -83,7 +83,7 @@
       "color": "#C1F12E"
     }
   ],
-  "language_bytes_total": 851234,
+  "language_bytes_total": 1009550,
   "private_tokens_see_public_only": "想统计私有仓库请用带 repo 权限的 PAT（见 docs/PROFILE.md）",
   "seeded_placeholder": false
 }
