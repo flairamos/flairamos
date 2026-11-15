@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T07:32:19+00:00",
+  "generated_at": "2026-11-15T07:46:16+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 5,
   "public_repos": 22,
   "created_at": "2023-02-14T15:29:26Z",
-  "github_age_years": 3.7,
+  "github_age_years": 3.8,
   "stars": 5,
   "forks": 0,
   "top_repo": {
