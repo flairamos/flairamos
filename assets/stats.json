@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T07:46:16+00:00",
+  "generated_at": "2026-11-16T07:53:00+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 5,
@@ -20,7 +20,7 @@
     "calendar_total": 43
   },
   "streak": {
-    "current": 3,
+    "current": 0,
     "longest": 3
   },
   "weekday": [
