@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-16T07:53:00+00:00",
+  "generated_at": "2026-11-17T09:04:16+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 5,
-  "public_repos": 22,
+  "public_repos": 23,
   "created_at": "2023-02-14T15:29:26Z",
   "github_age_years": 3.8,
   "stars": 5,
@@ -13,19 +13,19 @@
     "stars": 2
   },
   "contributions_last_year": {
-    "commits": 35,
+    "commits": 36,
     "pull_requests": 0,
     "issues": 0,
     "reviews": 0,
-    "calendar_total": 43
+    "calendar_total": 45
   },
   "streak": {
-    "current": 0,
+    "current": 1,
     "longest": 3
   },
   "weekday": [
     0,
-    0,
+    2,
     2,
     10,
     1,
@@ -35,76 +35,76 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 627558,
-      "pct": 43.33,
-      "repos": 12,
+      "bytes": 1050380,
+      "pct": 56.05,
+      "repos": 13,
       "color": "#00ADD8"
     },
     {
       "name": "JavaScript",
       "bytes": 329062,
-      "pct": 22.72,
+      "pct": 17.56,
       "repos": 6,
       "color": "#f1e05a"
     },
     {
       "name": "Vue",
       "bytes": 181752,
-      "pct": 12.55,
+      "pct": 9.7,
       "repos": 1,
       "color": "#41b883"
     },
     {
       "name": "CSS",
       "bytes": 98078,
-      "pct": 6.77,
+      "pct": 5.23,
       "repos": 4,
       "color": "#663399"
     },
     {
       "name": "HTML",
       "bytes": 85711,
-      "pct": 5.92,
+      "pct": 4.57,
       "repos": 4,
       "color": "#e34c26"
     },
     {
       "name": "Shell",
-      "bytes": 45096,
-      "pct": 3.11,
-      "repos": 3,
+      "bytes": 48159,
+      "pct": 2.57,
+      "repos": 4,
       "color": "#89e051"
     },
     {
       "name": "TypeScript",
       "bytes": 44622,
-      "pct": 3.08,
+      "pct": 2.38,
       "repos": 1,
       "color": "#3178c6"
     },
     {
       "name": "Python",
       "bytes": 23599,
-      "pct": 1.63,
+      "pct": 1.26,
       "repos": 1,
       "color": "#3572A5"
     },
     {
       "name": "NSIS",
       "bytes": 12427,
-      "pct": 0.86,
+      "pct": 0.66,
       "repos": 1,
       "color": "#00ADD8"
     },
     {
       "name": "Batchfile",
       "bytes": 264,
-      "pct": 0.02,
+      "pct": 0.01,
       "repos": 1,
       "color": "#C1F12E"
     }
   ],
-  "language_bytes_total": 1448169,
+  "language_bytes_total": 1874054,
   "private_tokens_see_public_only": "想统计私有仓库请用带 repo 权限的 PAT（见 docs/PROFILE.md）",
   "seeded_placeholder": false
 }
