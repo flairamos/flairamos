@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T09:04:16+00:00",
+  "generated_at": "2026-11-18T08:27:41+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 5,
@@ -13,20 +13,20 @@
     "stars": 2
   },
   "contributions_last_year": {
-    "commits": 36,
+    "commits": 41,
     "pull_requests": 0,
     "issues": 0,
     "reviews": 0,
-    "calendar_total": 45
+    "calendar_total": 50
   },
   "streak": {
-    "current": 1,
+    "current": 2,
     "longest": 3
   },
   "weekday": [
     0,
-    2,
-    2,
+    4,
+    5,
     10,
     1,
     20,
@@ -35,64 +35,64 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 1050380,
-      "pct": 56.05,
+      "bytes": 1091798,
+      "pct": 57.0,
       "repos": 13,
       "color": "#00ADD8"
     },
     {
       "name": "JavaScript",
       "bytes": 329062,
-      "pct": 17.56,
+      "pct": 17.18,
       "repos": 6,
       "color": "#f1e05a"
     },
     {
       "name": "Vue",
       "bytes": 181752,
-      "pct": 9.7,
+      "pct": 9.49,
       "repos": 1,
       "color": "#41b883"
     },
     {
       "name": "CSS",
       "bytes": 98078,
-      "pct": 5.23,
+      "pct": 5.12,
       "repos": 4,
       "color": "#663399"
     },
     {
       "name": "HTML",
       "bytes": 85711,
-      "pct": 4.57,
+      "pct": 4.47,
       "repos": 4,
       "color": "#e34c26"
     },
     {
       "name": "Shell",
       "bytes": 48159,
-      "pct": 2.57,
+      "pct": 2.51,
       "repos": 4,
       "color": "#89e051"
     },
     {
       "name": "TypeScript",
       "bytes": 44622,
-      "pct": 2.38,
+      "pct": 2.33,
       "repos": 1,
       "color": "#3178c6"
     },
     {
       "name": "Python",
       "bytes": 23599,
-      "pct": 1.26,
+      "pct": 1.23,
       "repos": 1,
       "color": "#3572A5"
     },
     {
       "name": "NSIS",
       "bytes": 12427,
-      "pct": 0.66,
+      "pct": 0.65,
       "repos": 1,
       "color": "#00ADD8"
     },
@@ -104,7 +104,7 @@
       "color": "#C1F12E"
     }
   ],
-  "language_bytes_total": 1874054,
+  "language_bytes_total": 1915472,
   "private_tokens_see_public_only": "想统计私有仓库请用带 repo 权限的 PAT（见 docs/PROFILE.md）",
   "seeded_placeholder": false
 }
