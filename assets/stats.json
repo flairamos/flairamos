@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T08:12:27+00:00",
+  "generated_at": "2026-11-22T07:56:24+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
-  "followers": 5,
+  "followers": 4,
   "public_repos": 24,
   "created_at": "2023-02-14T15:29:26Z",
   "github_age_years": 3.8,
@@ -20,7 +20,7 @@
     "calendar_total": 57
   },
   "streak": {
-    "current": 4,
+    "current": 0,
     "longest": 4
   },
   "weekday": [
