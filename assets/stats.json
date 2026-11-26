@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:44:56+00:00",
+  "generated_at": "2026-11-26T09:24:01+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 4,
@@ -13,21 +13,21 @@
     "stars": 2
   },
   "contributions_last_year": {
-    "commits": 50,
+    "commits": 52,
     "pull_requests": 0,
     "issues": 0,
     "reviews": 0,
-    "calendar_total": 61
+    "calendar_total": 63
   },
   "streak": {
-    "current": 3,
+    "current": 1,
     "longest": 4
   },
   "weekday": [
     1,
     6,
     5,
-    11,
+    13,
     7,
     20,
     11
@@ -36,70 +36,70 @@
     {
       "name": "Go",
       "bytes": 1865986,
-      "pct": 66.78,
+      "pct": 63.59,
       "repos": 15,
       "color": "#00ADD8"
     },
     {
       "name": "JavaScript",
-      "bytes": 380705,
-      "pct": 13.62,
+      "bytes": 401334,
+      "pct": 13.68,
       "repos": 8,
       "color": "#f1e05a"
     },
     {
+      "name": "HTML",
+      "bytes": 208829,
+      "pct": 7.12,
+      "repos": 6,
+      "color": "#e34c26"
+    },
+    {
       "name": "Vue",
       "bytes": 181752,
-      "pct": 6.5,
+      "pct": 6.19,
       "repos": 1,
       "color": "#41b883"
     },
     {
       "name": "CSS",
       "bytes": 109902,
-      "pct": 3.93,
+      "pct": 3.75,
       "repos": 6,
       "color": "#663399"
     },
     {
-      "name": "HTML",
-      "bytes": 89365,
-      "pct": 3.2,
-      "repos": 6,
-      "color": "#e34c26"
-    },
-    {
       "name": "Shell",
       "bytes": 80542,
-      "pct": 2.88,
+      "pct": 2.74,
       "repos": 6,
       "color": "#89e051"
     },
     {
       "name": "TypeScript",
       "bytes": 44622,
-      "pct": 1.6,
+      "pct": 1.52,
       "repos": 1,
       "color": "#3178c6"
     },
     {
       "name": "Python",
       "bytes": 23599,
-      "pct": 0.84,
+      "pct": 0.8,
       "repos": 1,
       "color": "#3572A5"
     },
     {
       "name": "NSIS",
       "bytes": 12427,
-      "pct": 0.44,
+      "pct": 0.42,
       "repos": 1,
       "color": "#00ADD8"
     },
     {
       "name": "PowerShell",
       "bytes": 3780,
-      "pct": 0.14,
+      "pct": 0.13,
       "repos": 1,
       "color": "#012456"
     },
@@ -118,7 +118,7 @@
       "color": "#384d54"
     }
   ],
-  "language_bytes_total": 2794390,
+  "language_bytes_total": 2934483,
   "private_tokens_see_public_only": "想统计私有仓库请用带 repo 权限的 PAT（见 docs/PROFILE.md）",
   "seeded_placeholder": false
 }
