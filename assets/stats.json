@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T09:24:01+00:00",
+  "generated_at": "2026-11-27T09:37:23+00:00",
   "data_source": "GitHub official API (REST /users/{login} + GraphQL v4)",
   "user": "flairamos",
   "followers": 4,
-  "public_repos": 25,
+  "public_repos": 28,
   "created_at": "2023-02-14T15:29:26Z",
   "github_age_years": 3.8,
   "stars": 5,
@@ -13,112 +13,112 @@
     "stars": 2
   },
   "contributions_last_year": {
-    "commits": 52,
+    "commits": 61,
     "pull_requests": 0,
     "issues": 0,
     "reviews": 0,
-    "calendar_total": 63
+    "calendar_total": 75
   },
   "streak": {
-    "current": 1,
+    "current": 2,
     "longest": 4
   },
   "weekday": [
     1,
     6,
     5,
-    13,
-    7,
+    16,
+    16,
     20,
     11
   ],
   "languages": [
     {
       "name": "Go",
-      "bytes": 1865986,
-      "pct": 63.59,
-      "repos": 15,
+      "bytes": 2680084,
+      "pct": 62.47,
+      "repos": 17,
       "color": "#00ADD8"
     },
     {
       "name": "JavaScript",
-      "bytes": 401334,
-      "pct": 13.68,
-      "repos": 8,
+      "bytes": 486680,
+      "pct": 11.34,
+      "repos": 10,
       "color": "#f1e05a"
     },
     {
-      "name": "HTML",
-      "bytes": 208829,
-      "pct": 7.12,
-      "repos": 6,
-      "color": "#e34c26"
-    },
-    {
       "name": "Vue",
-      "bytes": 181752,
-      "pct": 6.19,
-      "repos": 1,
+      "bytes": 457492,
+      "pct": 10.66,
+      "repos": 2,
       "color": "#41b883"
     },
     {
+      "name": "HTML",
+      "bytes": 215448,
+      "pct": 5.02,
+      "repos": 8,
+      "color": "#e34c26"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 194856,
+      "pct": 4.54,
+      "repos": 2,
+      "color": "#3178c6"
+    },
+    {
       "name": "CSS",
-      "bytes": 109902,
-      "pct": 3.75,
-      "repos": 6,
+      "bytes": 129915,
+      "pct": 3.03,
+      "repos": 8,
       "color": "#663399"
     },
     {
       "name": "Shell",
       "bytes": 80542,
-      "pct": 2.74,
+      "pct": 1.88,
       "repos": 6,
       "color": "#89e051"
     },
     {
-      "name": "TypeScript",
-      "bytes": 44622,
-      "pct": 1.52,
-      "repos": 1,
-      "color": "#3178c6"
-    },
-    {
       "name": "Python",
       "bytes": 23599,
-      "pct": 0.8,
+      "pct": 0.55,
       "repos": 1,
       "color": "#3572A5"
     },
     {
       "name": "NSIS",
       "bytes": 12427,
-      "pct": 0.42,
+      "pct": 0.29,
       "repos": 1,
       "color": "#00ADD8"
     },
     {
       "name": "PowerShell",
-      "bytes": 3780,
-      "pct": 0.13,
-      "repos": 1,
+      "bytes": 7733,
+      "pct": 0.18,
+      "repos": 2,
       "color": "#012456"
     },
     {
       "name": "Batchfile",
       "bytes": 906,
-      "pct": 0.03,
+      "pct": 0.02,
       "repos": 2,
       "color": "#C1F12E"
     },
     {
       "name": "Dockerfile",
       "bytes": 804,
-      "pct": 0.03,
+      "pct": 0.02,
       "repos": 1,
       "color": "#384d54"
     }
   ],
-  "language_bytes_total": 2934483,
+  "language_bytes_total": 4290486,
   "private_tokens_see_public_only": "想统计私有仓库请用带 repo 权限的 PAT（见 docs/PROFILE.md）",
   "seeded_placeholder": false
 }
